@@ -23,7 +23,7 @@ Se você encontrar algum problema, tiver sugestões ou quiser contribuir para o 
 
 ## Autor
 
-- [Jadson Gomes](https://github.com/JadsonGomes)
+- [Jadson Gomes] Acesse o site >> (https://jadsongomes.github.io/site_pessoal/)
 
 ## Licença
 

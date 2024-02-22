@@ -17,6 +17,7 @@ body {
     max-width: auto; /* Define a largura máxima do contêiner */
     margin: auto; /* Centraliza o contêiner horizontalmente */
     text-align: left; /* Alinha o texto centralmente */
+    font-size: 20px;
 }
 
 img {
@@ -28,12 +29,17 @@ img {
 }
 
 h1 {
-    color: #ffffff; /* Cor do título principal */
+    color: #ffdb58; /* Cor do título principal */
     
+}
+
+h2 {
+    color: #ffdb58;
 }
 
 p {
     color: #ffffff; /* Cor dos subtítulos */
+       
 }
 
 ul {

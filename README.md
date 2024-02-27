@@ -15,7 +15,8 @@ Meu site pessoal inclui informações sobre mim, meus projetos, experiência pro
 ## Estrutura do Projeto
 
 - `index.html`: Página inicial do site.
-- `estilo/`: Diretório contendo os arquivos CSS.
+- `style.css`: Arquivo contendo estilização CSS.
+- `img`: Diretório de imagens
 
 ## Como Contribuir
 

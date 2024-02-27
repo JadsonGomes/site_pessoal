@@ -1,4 +1,4 @@
-/* Estilos gerais */
+/* Estilos gerais do site */
 *{
   margin: 0;
   padding: 0;
@@ -30,18 +30,12 @@ body{
   transition: .2s; /*Efeito de transição sobte o botão*/
 }
 
-h2.titulo {
-    color: #d4d4d4;
-    font-size: 38px;
-    text-align: center;
-}
-
-h2{
+h2{ /*Estilo geral para o h2*/
   padding: 5px 0px;
   color: #00c8ff;
 }
 
-h3{
+h3{ /*Estilo geral para o h3*/
   padding: 5px 0%;
   color: rgb(9, 193, 129);
 }
@@ -52,7 +46,7 @@ form .btn-enviar input:hover {
 }
 
 /*ESTILO DO CABEÇALHO*/
-header{ /*Definição das margens do header*/
+header{ /*Definição do header*/
   padding: 40PX 4%;
   color: #ffffff;
 }
@@ -75,7 +69,7 @@ header img{ /*Imagem da logo*/
   border-radius: 100%;
 }
 
-header nav.menu-desktop a:hover {
+header nav.menu-desktop a:hover { /*Efeitos do nav bar*/
   color: #fff; 
   transform: scale(1.05); /*Almenta de tamanho quando passa o mouse*/
 }
@@ -89,7 +83,7 @@ header nav.menu-desktop ul li {
   padding: 0 40px; /*Ajustando o espaçamento entre os links*/
 }
 
-/* ESTILO DO TOPO DO SITE */
+/* ESTILO DO TOPO DO SITE SESSÃO-1*/
 section.topo-do-site {
   padding: 40px 4%; /*Distâncias das margens (topo e base*/
 }
@@ -125,6 +119,12 @@ section.topo-do-site .flex { /*Trabalhando com a classe flex separadamente dentr
 /* ESTILO DO FORMULÁRIO DE CONTATO */
 section.formulario {
   padding: 40px 4%;
+}
+
+h2.titulo { /*Estilo par o título da área de contato*/
+  color: #d4d4d4;
+  font-size: 38px;
+  text-align: center;
 }
 
 form {

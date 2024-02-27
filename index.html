@@ -1,28 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jadson Gomes</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.icon.jpeg">
-    <link rel="stylesheet" href="estilo.css"> <!-- Importa o arquivo CSS externo -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--GOOGLE FONTES-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--FIM GOOGLE FONTES-->
+  
+  <!--LINKOS CSS-->
+  <link rel="icon" type="image/x-icon" href="img/favicon.icon.jpeg">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--FIM LINK CSS-->
+  <title>Jadson Gomes</title>
 </head>
+
 <body>
-    <div class="container">
-        <img src="img/perfil.jpg" alt="Foto de Perfil"> <!-- Imagem de perfil -->
-        <h1>Jadson Gomes</h1> <!-- Título principal -->
-        <hr color="#ffdb58">
-        <p>
-            Tenho 32 anos e sou pai de dois meninos, Arthur e Luan. Com mais de 6 anos de experiência na área comercial de vendas em Lojas de Home Center, desenvolvi habilidades sólidas em atendimento ao cliente, negociação e gestão de vendas.Em agosto de 2023, decidi iniciar minha jornada acadêmica e estou atualmente cursando Análise e Desenvolvimento de Sistemas, buscando aprimorar meus conhecimentos em tecnologia e programação. Paralelamente, estou realizando um curso de programação web na plataforma Hashtag, com foco na linguagem Python.Tenho grande interesse e motivação para migrar minha carreira para a área da tecnologia, onde vejo oportunidades de crescimento profissional e realização pessoal. Estou comprometido em adquirir novas habilidades e conhecimentos para me tornar um profissional bem-sucedido nesse campo emocionante e em constante evolução.</p>
-        <h2>BASE DE ESTUDOS</h2> <!-- Subtítulo -->
-        <hr color="#ffdb58">
+  <header> <!--TOPO DO SITE COM NAVBAR-->
+    <div class="interface"> <!--CAIXA COM A INTERFACE DO TOPO DO SITE-->
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo de perfil"></a>
+      </div> <!--FIM LOGO-->
+
+      <nav class="menu-desktop">
         <ul>
-            <li># Lógica de Programação com <mark><b>Python</b></mark> </li>
-            <li># Estruturas de Dados em <mark><b>Python</b></mark> </li>
-            <li># Desenvolvimento Web com <mark><b>Flask</b></mark> </li>
-            <li># Desenvolvimento Web com <mark><b>Django</b></mark> </li>
-            <li># Conhecimentos em <mark><b>HTML5 e CSS3</b></mark></li>
+          <li><a href="index.html">Blog</a></li>
+          <li><a href="pages/sobre.html">Sobre Mim</a></li>
+          <li><a href="pages/formacao.html">Formação</a></li>
+          <li><a href="pages/portfolio.html">Portfólio</a></li>
         </ul>
-    </div>
+      </nav> <!--FIM MENU DESKTOP-->
+
+      <div class="btn-contato">
+        <a href="pages/contato.html">
+          <button>Contato</button> <!--Chamando a classe butão dentro da tag link-->
+        </a>
+      </div> <!--FIM BTN-CONTATO-->
+    </div> <!--FIM INTERFACE-->
+  </header> <!--FIM HEADER-->
+
+  <main>
+    <section class="topo-do-site"> <!--Uma sessão do meu site-->
+      <div class="interface"> <!--Demilita o o conteúdo do site-->
+        <div class="flex"> <!--Classe padrão com o display flex-->
+          <div class="txt-topo-site"> <!--Texto do topo do site lado esquerdo-->
+            <h1>Sobre <span>TECNOLOGIAS</span></h1>
+            <h2>Desenvolvimento Web</h2>
+            <P>O desenvolvimento web é a espinha dorsal da nossa presença online. É a magia por trás dos sites que visitamos, das lojas onde fazemos compras e das plataformas que usamos para nos conectar com o mundo. Neste mundo digital em constante evolução, os desenvolvedores web são os arquitetos que constroem e aprimoram essa paisagem virtual.</P>
+            <p>O desenvolvimento web é o processo de criar sites e aplicativos para a internet. Isso envolve uma combinação de habilidades técnicas e criatividade para produzir experiências online envolventes e funcionais. Desde a estrutura básica de um site até os recursos interativos avançados, os desenvolvedores web transformam conceitos em realidade virtual.</p>
+            
+            <h2>Tecnologias-Chave</h2>
+            <h3>HTML, CSS e JavaScript:</h3>
+            <p>Essas são as linguagens fundamentais da web. HTML define a estrutura, CSS cria o estilo e o JavaScript traz a interatividade.</p>
+            
+            <h3>Frameworks e Bibliotecas:</h3>
+            <p>Como o React, Angular e Vue.js, essas ferramentas aceleram o desenvolvimento e fornecem estruturas sólidas para aplicativos web.</p>
+
+            <h3>Back-End:</h3>
+            <p>Aqui, tecnologias como Node.js, Python (Django), e Ruby (Ruby on Rails) lidam com o lado do servidor, gerenciando dados e lógica de negócios.</p>
+
+            <h3>Bancos de Dados:</h3>
+            <p> MySQL, PostgreSQL, MongoDB, entre outros, armazenam e organizam as informações que os sites utilizam.</p>
+
+            <h2>O papel do desenvolvedor Web</h2>
+            <p>Os desenvolvedores web são como artesãos digitais, trabalhando nos bastidores para garantir que cada clique seja intuitivo, cada transação seja segura e cada interação seja fluida. Eles também precisam estar sempre atualizados com as últimas tendências e tecnologias, pois a web está em constante evolução.</p>
+
+            <h2>Tendências do Futuro</h2>
+            <h3>IA-Interligência Artificial.</h3>
+            <p>A IA está se tornando uma parte essencial do desenvolvimento web, capacitando os desenvolvedores a criar experiências mais inteligentes, adaptativas e seguras para os usuários. Este casamento entre IA e web está moldando um futuro onde a interação online será mais personalizada, eficiente e envolvente do que nunca.</p>
+          </div> <!--Fim txt topo site-->
+          <div class="img-topo-site">
+            <img src="/img/blog1.jpeg" alt="Perfil do topo do site">
+            <img src="/img/blog3.jpeg" alt="Perfil do topo do site">
+            <img src="/img/blog2.jpeg" alt="Perfil do topo do site">
+          </div> <!--Fim  img topo site-->
+        </div> <!--Fim flex-->
+      </div> <!--Fim interface-->
+    </section> <!--Fim topo do site-->
+  </main>
+
+  <footer>
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <div class="logo-footer">
+                    <img src="img/logo.rodape.jpeg" alt="Logotipo jdsn">
+                </div><!--logo-footer-->
+                <div class="btn-social">
+                    <a href="https://www.instagram.com/sr.jadson_gomes?igsh=MnZrb2FpeXA3c3Vp" target="_blank"><img src="img/logo.instagram.png" alt="Instagram"></a>
+                    <a href="https://github.com/JadsonGomes" target="_blank"><img src="img/logo.github.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/jadson-gomes-32076496/" target="_blank"><img src="img/logo.linkedin.png" alt="Linkedin"></a>
+                </div><!--btn-social-->
+            </div>
+        </div><!--line-footer-->
+
+        <div class="line-footer borda">
+          <p><i class="bi bi-envelope-fill"></i> <a href="mailto:dev.gomes31@gmail.com">dev.gomes31@gmail.com</a></p>
+        </div><!--line-footer-->
+    </div><!--interface-->
+  </footer>
+
 </body>
 </html>

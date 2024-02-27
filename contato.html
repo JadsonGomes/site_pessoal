@@ -11,8 +11,8 @@
   <!--FIM GOOGLE FONTES-->
   
   <!--LINKOS CSS-->
-  <link rel="icon" type="image/x-icon" href="/img/favicon.icon.jpeg">
-  <link rel="stylesheet" type="text/css" href="/styles.css"> 
+  <link rel="icon" type="image/x-icon" href="img/favicon.icon.jpeg">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <!--FIM LINK CSS-->
   <title>Jadson Gomes</title>
 </head>
@@ -21,22 +21,22 @@
   <header> <!--TOPO DO SITE COM NAVBAR-->
     <div class="interface"> <!--CAIXA COM A INTERFACE DO TOPO DO SITE-->
       <div class="logo">
-        <a href="/index.html">
-          <img src="/img/logo.png" alt="logo de perfil">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo de perfil">
         </a>
       </div> <!--FIM LOGO-->
 
       <nav class="menu-desktop">
         <ul>
-          <li><a href="/index.html">Blog</a></li>
-          <li><a href="/pages/sobre.html">Sobre Mim</a></li>
-          <li><a href="/pages/formacao.html">Formação</a></li>
-          <li><a href="/pages/portfolio.html">Portfólio</a></li>
+          <li><a href="index.html">Blog</a></li>
+          <li><a href="sobre.html">Sobre Mim</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
         </ul>
       </nav> <!--FIM MENU DESKTOP-->
 
       <div class="btn-contato">
-        <a href="/pages/contato.html">
+        <a href="contato.html">
           <button>Contato</button> <!--Chamando a classe butão dentro da tag link-->
         </a>
       </div> <!--FIM BTN-CONTATO-->
@@ -44,30 +44,31 @@
   </header> <!--FIM HEADER-->
 
   <main>
-    <section class="topo-do-site">
+    <section class="formulario">
       <div class="interface">
-        <div class="flex">
-          <div class="txt-topo-site">
-            <h1>Conheça mais sobre o meu <span>PORTFÓLIO</span></h1>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam suscipit labore odit delectus id quaerat, at ipsa, laboriosam sequi nobis fugiat nostrum amet repudiandae voluptate earum! Perferendis itaque quibusdam illum!</P>
-          </div> <!--Fim txt topo site-->
-        </div> <!--Fim flex-->
-      </div> <!--Fim interface-->
-    </section> <!--Fim topo do site-->
-  </main>
+          <h2 class="titulo">Entre em <span>contato</span></h2>
 
+          <form action="">
+              <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+              <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+              <input type="text" name="" id="" placeholder="Seu celular:">
+              <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+              <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+          </form>
+      </div><!--interface-->
+  </section><!--formulario-->
+  </main>
   <footer>
     <div class="interface">
         <div class="line-footer">
             <div class="flex">
                 <div class="logo-footer">
-                    <img src="/img/logo.rodape.jpeg" alt="Logotipo jdsn">
+                    <img src="img/logo.rodape.jpeg" alt="Logotipo jdsn">
                 </div><!--logo-footer-->
                 <div class="btn-social">
                     <a href="https://www.instagram.com/sr.jadson_gomes?igsh=MnZrb2FpeXA3c3Vp"><img src="/img/logo.instagram.png" alt="Instagram"></a>
                     <a href="https://github.com/JadsonGomes"><img src="/img/logo.github.png" alt="GitHub"></a>
                     <a href="https://www.linkedin.com/in/jadson-gomes-32076496/"><img src="/img/logo.linkedin.png" alt="Linkedin"></a>
-                    <a href="#"><img src="/img/logo.email.png" alt="email"></a>
                 </div><!--btn-social-->
             </div>
         </div><!--line-footer-->
@@ -79,4 +80,3 @@
   </footer>
 </body>
 </html>
-

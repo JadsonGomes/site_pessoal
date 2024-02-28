@@ -190,4 +190,70 @@ footer .line-footer p a{
   border-top: 2px solid #00FF08;
 }
 
+/*RESPONSIVO MOBILE*/
+@media screen and (max-width: 1080px) {
+  /*CLASSES GERAIS*/
+  header{ /*Definição do header*/
+    padding: 25PX 4%;
+    color: #ffffff;
+  }
+
+  .interface{
+    max-width: auto; /*Largura máxima da página*/
+    margin: 0 auto; /*Posiciona o bloco no meio da página*/
+  }
+  .txt-topo-site{
+    padding: 5px;
+  }
+  .flex{
+    flex-direction: column;
+  }
+
+  header>.interface {
+    display: inline-flex;
+    flex-direction:column ;
+    
+  }
+
+  /*TOPO DO SITE*/
+  /*---------------------------------------------------*/
+  
+
+  .menu-desktop{
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-desktop li{
+    font-size: 100%;
+    display:list-item;
+  }
+
+  .btn-contato {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  /*---------------------------------------------------*/
+  /* ESTILO DO RODAPÉ */
+  footer .flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer .line-footer {
+    text-align: center;
+
+  }
+
+  footer .line-footer img{
+    max-width: 70px;
+  }
+
+  footer .line-footer .logo-footer img{
+    display: none; /*Ocultando a logo do todapé*/
+  }
+
+}
+
 

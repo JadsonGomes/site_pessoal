@@ -1,103 +1,138 @@
 /* Estilos gerais do site */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
   background-color: #000;
   height: 100hv;
 }
 
-.interface{
-  max-width: 1280px; /*Largura máxima da página*/
-  margin: 0 auto; /*Posiciona o bloco no meio da página*/
+.interface {
+  max-width: 1280px;
+  /*Largura máxima da página*/
+  margin: 0 auto;
+  /*Posiciona o bloco no meio da página*/
 }
 
-.flex{
-  display: flex; /*Alinha as DVs uma ao lodo da outra*/
+.flex {
+  display: flex;
+  /*Alinha as DVs uma ao lodo da outra*/
 }
 
-.btn-contato button { /*Conf. botão de contato classe geral*/
-  padding: 10px 40px; /*Espaçamento*/
-  font-size: 18px; /*Tam. Fonte*/
-  font-weight: 600; /*preenchimento da fonte*/
-  background-color: #00FF08; /*Fundo do botão*/
-  border: 0; /*Sem borda*/
-  border-radius: 30px; /*Aredondamento*/
-  cursor: pointer; /*Efeito do cursor de dedinho*/
-  transition: .2s; /*Efeito de transição sobte o botão*/
+.btn-contato button {
+  /*Conf. botão de contato classe geral*/
+  padding: 10px 40px;
+  /*Espaçamento*/
+  font-size: 18px;
+  /*Tam. Fonte*/
+  font-weight: 600;
+  /*preenchimento da fonte*/
+  background-color: #00FF08;
+  /*Fundo do botão*/
+  border: 0;
+  /*Sem borda*/
+  border-radius: 30px;
+  /*Aredondamento*/
+  cursor: pointer;
+  /*Efeito do cursor de dedinho*/
+  transition: .2s;
+  /*Efeito de transição sobte o botão*/
 }
 
-h2{ /*Estilo geral para o h2*/
+h2 {
+  /*Estilo geral para o h2*/
   padding: 5px 0px;
   color: #00c8ff;
 }
 
-h3{ /*Estilo geral para o h3*/
+h3 {
+  /*Estilo geral para o h3*/
   padding: 5px 0%;
   color: rgb(9, 193, 129);
 }
-button:hover, /*Efeitos do botão de contato*/
+
+button:hover,
+/*Efeitos do botão de contato*/
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08; 
-    transform: scale(1.05);
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
 }
 
 /*ESTILO DO CABEÇALHO*/
-header{ /*Definição do header*/
+header {
+  /*Definição do header*/
   padding: 40PX 4%;
   color: #ffffff;
 }
 
-header>.interface{
+header>.interface {
   display: flex;
   align-items: center;
-  justify-content: space-between; /*para distribuir os itens, de forma que o primeiro item esteja no início do contêiner e o último item esteja no final do contêiner.*/
+  justify-content: space-between;
+  /*para distribuir os itens, de forma que o primeiro item esteja no início do contêiner e o último item esteja no final do contêiner.*/
 }
 
-header a, li{
+header a,
+li {
   color: #40ff00;
-  text-decoration: none; /*Retirando o soblinhado dos links da NAV*/
-  display: inline-block; /*Garantindo as propriedades do inline e Block no link*/
-  transition: .2s; /*Tempo da transição*/
+  text-decoration: none;
+  /*Retirando o soblinhado dos links da NAV*/
+  display: inline-block;
+  /*Garantindo as propriedades do inline e Block no link*/
+  transition: .2s;
+  /*Tempo da transição*/
 }
 
-header img{ /*Imagem da logo*/
+header img {
+  /*Imagem da logo*/
   max-width: 75px;
   border-radius: 100%;
 }
 
-header nav.menu-desktop a:hover { /*Efeitos do nav bar*/
-  color: #fff; 
-  transform: scale(1.05); /*Almenta de tamanho quando passa o mouse*/
+header nav.menu-desktop a:hover {
+  /*Efeitos do nav bar*/
+  color: #fff;
+  transform: scale(1.05);
+  /*Almenta de tamanho quando passa o mouse*/
 }
 
 header nav ul {
-  list-style-type: none; /*Retira as bolinhas da lista*/
+  list-style-type: none;
+  /*Retira as bolinhas da lista*/
 }
 
 header nav.menu-desktop ul li {
-  display: inline-block; /*Mantem os links da NAV uma ao lado da outra*/
-  padding: 0 40px; /*Ajustando o espaçamento entre os links*/
+  display: inline-block;
+  /*Mantem os links da NAV uma ao lado da outra*/
+  padding: 0 40px;
+  /*Ajustando o espaçamento entre os links*/
 }
 
 /* ESTILO DO TOPO DO SITE SESSÃO-1*/
 section.topo-do-site {
-  padding: 40px 4%; /*Distâncias das margens (topo e base*/
+  padding: 40px 4%;
+  /*Distâncias das margens (topo e base*/
 }
 
-section.topo-do-site .flex { /*Trabalhando com a classe flex separadamente dentro da sessão topo do site*/
-  align-items: center; /*Alinamento dos itens na horizontal*/
+section.topo-do-site .flex {
+  /*Trabalhando com a classe flex separadamente dentro da sessão topo do site*/
+  align-items: center;
+  /*Alinamento dos itens na horizontal*/
   justify-content: center;
-  gap: 90px; /*Espaçamento entre os elementos*/
+  gap: 90px;
+  /*Espaçamento entre os elementos*/
 }
 
-.topo-do-site h1{ /*Trab. com H1 separadamente*/
+.topo-do-site h1 {
+  /*Trab. com H1 separadamente*/
   color: #fff;
   font-size: 42px;
-  line-height: 40px; /*espaçamento entre as quebras de linhas*/
+  line-height: 40px;
+  /*espaçamento entre as quebras de linhas*/
 }
 
 .topo-do-site .txt-topo-site h1 span {
@@ -105,15 +140,17 @@ section.topo-do-site .flex { /*Trabalhando com a classe flex separadamente dentr
 }
 
 .topo-do-site .txt-topo-site p {
-  color: #d4d4d4; 
-  margin: 10px 0; /*definição das margens*/
+  color: #d4d4d4;
+  margin: 10px 0;
+  /*definição das margens*/
   font-size: 1rem;
 }
 
-.topo-do-site .img-topo-site img { /*Fonf. imagem do home*/
+.topo-do-site .img-topo-site img {
+  /*Fonf. imagem do home*/
   max-width: 390px;
   border-radius: 25px;
-  
+
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
@@ -121,7 +158,8 @@ section.formulario {
   padding: 40px 4%;
 }
 
-h2.titulo { /*Estilo par o título da área de contato*/
+h2.titulo {
+  /*Estilo par o título da área de contato*/
   color: #d4d4d4;
   font-size: 38px;
   text-align: center;
@@ -173,7 +211,7 @@ footer .flex {
   justify-content: space-between;
 }
 
-footer .flex img{
+footer .flex img {
   max-width: 70px;
   border-radius: 50px;
 }
@@ -182,7 +220,7 @@ footer .line-footer {
   padding: 20px 0;
 }
 
-footer .line-footer p a{
+footer .line-footer p a {
   color: #fff;
 }
 
@@ -192,41 +230,47 @@ footer .line-footer p a{
 
 /*RESPONSIVO MOBILE*/
 @media screen and (max-width: 1080px) {
+
   /*CLASSES GERAIS*/
-  header{ /*Definição do header*/
+  header {
+    /*Definição do header*/
     padding: 25PX 4%;
     color: #ffffff;
   }
 
-  .interface{
-    max-width: auto; /*Largura máxima da página*/
-    margin: 0 auto; /*Posiciona o bloco no meio da página*/
+  .interface {
+    max-width: auto;
+    /*Largura máxima da página*/
+    margin: 0 auto;
+    /*Posiciona o bloco no meio da página*/
   }
-  .txt-topo-site{
+
+  .txt-topo-site {
     padding: 5px;
   }
-  .flex{
+
+  .flex {
     flex-direction: column;
   }
 
   header>.interface {
     display: inline-flex;
-    flex-direction:column ;
-    
+    flex-direction: column;
+
   }
 
   /*TOPO DO SITE*/
   /*---------------------------------------------------*/
-  
 
-  .menu-desktop{
+
+  .menu-desktop {
     padding: 0;
     margin: 0;
   }
 
-  .menu-desktop li{
+  .menu-desktop li {
     font-size: 100%;
-    display:list-item;
+    display: list-item;
   }
 
   .btn-contato {
@@ -246,14 +290,13 @@ footer .line-footer p a{
 
   }
 
-  footer .line-footer img{
+  footer .line-footer img {
     max-width: 70px;
   }
 
-  footer .line-footer .logo-footer img{
-    display: none; /*Ocultando a logo do todapé*/
+  footer .line-footer .logo-footer img {
+    display: none;
+    /*Ocultando a logo do todapé*/
   }
 
 }
-
-
